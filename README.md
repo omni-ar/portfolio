@@ -9,7 +9,7 @@ Live Demo 👉 [portfolio.vercel.app](https://portfolio.vercel.app)
 
 ## 📸 Preview
 
-![Portfolio Screenshot](./public/preview.jpg)
+![Portfolio Screenshot](./public/preview.png)
 
 ---
 
@@ -51,10 +51,10 @@ npm run dev
 
 # Visit in browser
 http://localhost:3000
-
+```
 
 ## 📃 License
 
 This project is open-source and free to use under the MIT License.
 
-Built with ❤️ by Arjit Tripathi
+Built with ☕ by Arjit Tripathi
