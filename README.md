@@ -53,7 +53,8 @@ npm run dev
 http://localhost:3000
 
 
-📃 License
+## 📃 License
+
 This project is open-source and free to use under the MIT License.
 
 Built with ❤️ by Arjit Tripathi
