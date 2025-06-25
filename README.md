@@ -3,7 +3,7 @@
 Welcome to my personal portfolio website, built using **Next.js 15**, **Tailwind CSS**, and **Framer Motion**.  
 It showcases my projects, skills, experience in **Full Stack Web Development**, **DSA**, and **Competitive Programming**.
 
-Live Demo 👉 [portfolio.vercel.app](https://portfolio.vercel.app)
+Live Demo 👉 [portfolio](https://portfolio-sage-two-16.vercel.app/)
 
 ---
 
@@ -40,7 +40,7 @@ Live Demo 👉 [portfolio.vercel.app](https://portfolio.vercel.app)
 
 ```bash
 # Clone the repository
-git clone https://github.com/arjit-dev/portfolio.git
+git clone https://github.com/omni-ar/portfolio.git
 cd portfolio
 
 # Install dependencies
