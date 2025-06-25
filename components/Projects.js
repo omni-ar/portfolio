@@ -11,8 +11,8 @@ const projects = [
   {
     title: "Personal Portfolio",
     description: "Responsive, animated portfolio with typewriter, rotating icons, and timeline projects.",
-    github: "https://github.com/arjit-dev/portfolio",
-    live: "https://arjit.vercel.app",
+    github: "https://github.com/omni-ar/portfolio",
+    live: "https://portfolio-sage-two-16.vercel.app/",
   },
 ];
 
