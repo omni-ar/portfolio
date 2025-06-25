@@ -11,15 +11,18 @@ import {
 } from "lucide-react";
 
 const skills = [
-  { name: "Frontend", icon: <FileCode2 className="w-10 h-10 text-orange-500" /> },
-  { name: "UI/UX", icon: <LayoutDashboard className="w-10 h-10 text-blue-500" /> },
-  { name: "JavaScript", icon: <Code className="w-10 h-10 text-yellow-500" /> },
-  { name: "React", icon: <Braces className="w-10 h-10 text-cyan-500" /> },
+  { name: "JavaScript (ES6+)", icon: <Code className="w-10 h-10 text-yellow-500" /> },
+  { name: "React.js", icon: <Braces className="w-10 h-10 text-cyan-500" /> },
   { name: "Next.js", icon: <Globe className="w-10 h-10 text-black" /> },
-  { name: "Node.js", icon: <Server className="w-10 h-10 text-green-600" /> },
-  { name: "MongoDB", icon: <Database className="w-10 h-10 text-emerald-600" /> },
-  { name: "Git", icon: <GitBranch className="w-10 h-10 text-red-500" /> },
   { name: "Tailwind CSS", icon: <Settings className="w-10 h-10 text-blue-400" /> },
+  { name: "Node.js + Express", icon: <Server className="w-10 h-10 text-green-600" /> },
+  { name: "MongoDB", icon: <Database className="w-10 h-10 text-emerald-600" /> },
+  { name: "REST APIs & JWT Auth", icon: <FileCode2 className="w-10 h-10 text-orange-500" /> },
+  { name: "Git & GitHub", icon: <GitBranch className="w-10 h-10 text-red-500" /> },
+  { name: "C++ (DSA)", icon: <Code className="w-10 h-10 text-gray-700" /> },
+  { name: "Python (ML Basics)", icon: <Code className="w-10 h-10 text-blue-600" /> },
+  { name: "Problem Solving", icon: <Settings className="w-10 h-10 text-orange-600" /> },
+  { name: "Responsive Web Design", icon: <LayoutDashboard className="w-10 h-10 text-pink-500" /> },
 ];
 
 export default function Skills() {
@@ -34,7 +37,7 @@ export default function Skills() {
               className="bg-white p-6 shadow-md rounded-xl hover:rotate-3 hover:scale-105 transition-all duration-300 flex flex-col items-center justify-center"
             >
               {skill.icon}
-              <p className="mt-2 text-sm font-medium text-gray-700">{skill.name}</p>
+              <p className="mt-2 text-sm font-medium text-gray-700 text-center">{skill.name}</p>
             </div>
           ))}
         </div>
