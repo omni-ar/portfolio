@@ -22,7 +22,6 @@ const skills = [
   { name: "C++ (DSA)", icon: <Code className="w-10 h-10 text-gray-700" /> },
   { name: "Python (ML Basics)", icon: <Code className="w-10 h-10 text-blue-600" /> },
   { name: "Problem Solving", icon: <Settings className="w-10 h-10 text-orange-600" /> },
-  { name: "Responsive Web Design", icon: <LayoutDashboard className="w-10 h-10 text-pink-500" /> },
 ];
 
 export default function Skills() {

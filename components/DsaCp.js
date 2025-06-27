@@ -20,9 +20,9 @@ const highlights = [
     icon: <Code2 className="w-8 h-8 text-green-500" />,
     description: "Active profiles on major platforms. Check my performance and submissions below.",
     links: {
-      LeetCode: "https://leetcode.com/arjit-tripathi/",
-      Codeforces: "https://codeforces.com/profile/arjit",
-      GFG: "https://www.geeksforgeeks.org/user/arjit-tripathi/",
+      LeetCode: "https://leetcode.com/u/omni2003/",
+      Codechef: "https://www.codechef.com/users/arjittripathi",
+      HackerRank: "https://www.hackerrank.com/profile/arjittripathi311",
     },
   },
   {
@@ -34,9 +34,9 @@ const highlights = [
 
 export default function DsaCp() {
   return (
-    <section id="dsacp" className="py-16 dark:bg-gray-950">
+    <section id="dsacp" className="py-16 bg-white">
       <div className="max-w-6xl mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-black">
           💻 DSA & Competitive Programming
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -47,13 +47,13 @@ export default function DsaCp() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.2 }}
               viewport={{ once: true }}
-              className="bg-gray-100 dark:bg-gray-800 p-6 rounded-xl shadow-md hover:shadow-xl transition"
+              className="bg-gray-100 p-6 rounded-xl shadow-md hover:shadow-xl transition"
             >
               <div className="flex items-center gap-4 mb-4">
                 {item.icon}
-                <h3 className="text-xl font-semibold">{item.title}</h3>
+                <h3 className="text-xl font-semibold text-black">{item.title}</h3>
               </div>
-              <p className="text-gray-600 dark:text-gray-300 mb-2">{item.description}</p>
+              <p className="text-gray-700 mb-2">{item.description}</p>
               {item.links && (
                 <div className="flex gap-4 mt-2 flex-wrap">
                   {Object.entries(item.links).map(([name, link]) => (
