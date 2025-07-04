@@ -22,7 +22,8 @@ export default function Hero() {
           />
         </h1>
         <p className="max-w-xl mb-6 text-lg text-gray-700">
-          Passionate about building amazing web experiences. Skilled in full stack development, ML & DSA.
+          Passionate about building amazing web experiences. Skilled in full
+          stack development, ML & DSA.
         </p>
         <div className="flex flex-wrap gap-4 justify-center md:justify-start">
           <a
@@ -55,7 +56,7 @@ export default function Hero() {
         <img
           src="/profile.jpg"
           alt="Arjit"
-          className="w-80 h-80 rounded-full object-cover border-4 border-white shadow-xl neon-glow"
+          className="w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 rounded-full object-cover border-4 border-white shadow-xl neon-glow"
         />
       </div>
     </section>
