@@ -12,8 +12,6 @@ import {
 
 const skills = [
   { name: "JavaScript (ES6+)", icon: <Code className="w-10 h-10 text-yellow-500" /> },
-  { name: "React.js", icon: <Braces className="w-10 h-10 text-cyan-500" /> },
-  { name: "Next.js", icon: <Globe className="w-10 h-10 text-black" /> },
   { name: "Tailwind CSS", icon: <Settings className="w-10 h-10 text-blue-400" /> },
   { name: "Node.js + Express", icon: <Server className="w-10 h-10 text-green-600" /> },
   { name: "MongoDB", icon: <Database className="w-10 h-10 text-emerald-600" /> },
