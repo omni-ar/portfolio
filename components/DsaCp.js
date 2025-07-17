@@ -7,13 +7,13 @@ const highlights = [
     title: "DSA Expertise",
     icon: <Brain className="w-8 h-8 text-indigo-600" />,
     description:
-      "Strong in Arrays, Linked Lists, Trees, Graphs, DP, and advanced problem-solving using C++ & Python.",
+      "Strong in Arrays, Linked Lists, Trees, DP, and problem-solving using C++ & Java.",
   },
   {
     title: "Competitive Programming",
     icon: <Trophy className="w-8 h-8 text-yellow-500" />,
     description:
-      "Participated in Codeforces, LeetCode, CodeChef contests. 1500+ problems solved across platforms.",
+      "Participated in LeetCode, CodeChef contests. ",
   },
   {
     title: "Coding Profiles",
@@ -28,7 +28,7 @@ const highlights = [
   {
     title: "Team & Hackathons",
     icon: <Network className="w-8 h-8 text-pink-500" />,
-    description: "Collaborated in team coding rounds, ICPC-style contests, and time-limited hackathons.",
+    description: "Collaborated in team coding rounds and time-limited hackathons.",
   },
 ];
 
