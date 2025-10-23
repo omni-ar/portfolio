@@ -3,10 +3,22 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
+    title: "Automated Coding Practice & Evaluation Bot",
+    description: "Telegram bot delivering daily coding problems and auto-evaluating user submissions in C++, Python, and Java. Built with FastAPI, Docker, n8n workflow automation.",
+    github: "https://github.com/arjit/auto-code-eval-bot",
+    live: "https://github.com/arjit/auto-code-eval-bot",
+  },
+  {
     title: "Time Travel Web App",
     description: "Explore any year from 1100 to 2100 with interactive timelines, 3D machine, and MongoDB backend.",
     github: "https://github.com/omni-ar/time_travel",
     live: "https://time-travel-ruby.vercel.app/",
+  },
+  {
+    title: "Smart Traffic Management System",
+    description: "Web app simulating traffic signals with real-time UI and a chatbot assistant (Sakha). Built with Flask and JS for dynamic control.",
+    github: "https://github.com/arjit/smart-traffic-management",
+    live: "https://your-traffic-system-demo.vercel.app",
   },
   {
     title: "Personal Portfolio",
