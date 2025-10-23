@@ -5,6 +5,7 @@ import {
   GitBranch,
   Code,
   Settings,
+  Globe,
 } from "lucide-react";
 
 const skills = [
@@ -24,6 +25,7 @@ const skills = [
   { name: "Docker", icon: <Settings className="w-10 h-10 text-gray-600" /> },
   { name: "n8n Workflow", icon: <Settings className="w-10 h-10 text-indigo-400" /> },
   { name: "Telegram Bot API", icon: <Globe className="w-10 h-10 text-blue-400" /> },
+
 
   // Cross-project / general
   { name: "Git & GitHub", icon: <GitBranch className="w-10 h-10 text-red-500" /> },
