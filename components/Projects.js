@@ -5,8 +5,7 @@ const projects = [
   {
     title: "Automated Coding Practice & Evaluation Bot",
     description: "Telegram bot delivering daily coding problems and auto-evaluating user submissions in C++, Python, and Java. Built with FastAPI, Docker, n8n workflow automation.",
-    github: "https://github.com/arjit/auto-code-eval-bot",
-    live: "https://github.com/arjit/auto-code-eval-bot",
+    github: "https://github.com/omni-ar/oa-reminder",
   },
   {
     title: "Time Travel Web App",
@@ -17,8 +16,7 @@ const projects = [
   {
     title: "Smart Traffic Management System",
     description: "Web app simulating traffic signals with real-time UI and a chatbot assistant (Sakha). Built with Flask and JS for dynamic control.",
-    github: "https://github.com/arjit/smart-traffic-management",
-    live: "https://your-traffic-system-demo.vercel.app",
+    github: "https://github.com/omni-ar/traffic_management",
   },
   {
     title: "Personal Portfolio",
